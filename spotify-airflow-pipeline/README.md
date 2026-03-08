@@ -182,7 +182,7 @@ images/dag_success.png
 
 Example:
 
-![Airflow DAG Success](images/dag_success.png)
+![Airflow DAG Success](images/dataset_output.png)
 
 ---
 
@@ -190,7 +190,7 @@ Example:
 
 Preview of transformed playlist dataset.
 
-![Dataset Output](images/dataset_output.png)
+![Dataset Output](images/dag_seccess.png)
 
 ---
 
