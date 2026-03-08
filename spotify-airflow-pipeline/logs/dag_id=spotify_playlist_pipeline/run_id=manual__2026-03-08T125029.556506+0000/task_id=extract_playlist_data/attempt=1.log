@@ -1,0 +1,13 @@
+{"timestamp":"2026-03-08T12:50:33.015374Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-08T12:50:33.017445Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_playlist_pipeline_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-08T12:50:33.304784Z","level":"info","event":"generated new fontManager","logger":"matplotlib.font_manager","filename":"font_manager.py","lineno":1639}
+{"timestamp":"2026-03-08T12:50:35.276657Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.277484Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.278164Z","level":"info","event":"Current task name:extract_playlist_data","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.278792Z","level":"info","event":"Dag name:spotify_playlist_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.279444Z","level":"info","event":"Fetching playlist data from JSON dataset...","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.650668Z","level":"info","event":"Fetched 50 tracks","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.694189Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-08T12:50:35.710142Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.710973Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:50:35.711382Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_playlist_data>","logger":"task.stdout"}

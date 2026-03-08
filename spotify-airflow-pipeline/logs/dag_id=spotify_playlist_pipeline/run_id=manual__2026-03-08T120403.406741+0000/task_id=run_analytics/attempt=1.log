@@ -1,0 +1,15 @@
+{"timestamp":"2026-03-08T12:04:13.651541Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-08T12:04:13.654097Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_playlist_pipeline_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-08T12:04:14.722780Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.723318Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.723626Z","level":"info","event":"Current task name:run_analytics","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.723937Z","level":"info","event":"Dag name:spotify_playlist_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.742261Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.742871Z","level":"info","event":"--- Advanced Analytics ---","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.743309Z","level":"info","event":"Total Unique Artists: 25","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.743617Z","level":"info","event":"Top Artist: Arijit Singh (7 tracks)","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.744287Z","level":"info","event":"Average Popularity: 90.26","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.751045Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-08T12:04:14.763897Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.764696Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:14.765398Z","level":"info","event":"Task operator:<Task(PythonOperator): run_analytics>","logger":"task.stdout"}

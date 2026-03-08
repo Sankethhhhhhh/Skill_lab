@@ -1,0 +1,13 @@
+{"timestamp":"2026-03-08T12:04:15.778525Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-08T12:04:15.780829Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify_playlist_pipeline_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-08T12:04:16.876634Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:16.877300Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:16.877749Z","level":"info","event":"Current task name:generate_visualizations","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:16.878172Z","level":"info","event":"Dag name:spotify_playlist_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:16.920646Z","level":"warning","event":"\n\nPassing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.\n","category":"FutureWarning","filename":"/opt/airflow/dags/visualization.py","lineno":20,"logger":"py.warnings"}
+{"timestamp":"2026-03-08T12:04:17.343574Z","level":"warning","event":"\n\nPassing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.\n","category":"FutureWarning","filename":"/opt/airflow/dags/visualization.py","lineno":49,"logger":"py.warnings"}
+{"timestamp":"2026-03-08T12:04:17.404844Z","level":"info","event":"Visualizations saved as PNG files.","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:17.404765Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-08T12:04:17.425511Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:17.426363Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-08T12:04:17.426746Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_visualizations>","logger":"task.stdout"}

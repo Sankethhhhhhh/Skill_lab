@@ -1,0 +1,17 @@
+--- Spotify Playlist Summary ---
+Total Tracks: 50
+Average Track Duration: 3.71 minutes
+
+Top 5 Artists by Track Count:
+- Arijit Singh: 7 tracks
+- Ed Sheeran: 7 tracks
+- Coldplay: 5 tracks
+- Lil Nas X: 3 tracks
+- Post Malone: 3 tracks
+
+Top 5 Most Popular Tracks:
+- Blinding Lights by The Weeknd (Popularity: 98)
+- Shape of You by Ed Sheeran (Popularity: 97)
+- Tum Hi Ho by Arijit Singh (Popularity: 95)
+- Believer by Imagine Dragons (Popularity: 94)
+- Sunflower by Post Malone (Popularity: 94)
